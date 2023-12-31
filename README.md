@@ -10,7 +10,7 @@ This FAQ README will be updated along with the [Bootstrap README fork](https://g
 
 ## Do I need TrollStore for this bootstrap?
 YES! No TrollStore = Unsupported. No ifs, ands, or buts.
-If you are on a supported version to install TrollStore, use [this guide](https://ios.cfw.guide/installing-trollstore/)
+If you are on a supported version to install TrollStore, use [this guide](https://ios.cfw.guide/installing-trollstore/) to install TrollStore.
 
 ## How do I build the RootHide Bootstrap? (MAC NOT REQUIRED)
 Check [here](https://discord.com/channels/1130859165942829106/1130859166488076331/1190488974528106607) or [here](https://discord.com/channels/1130859165942829106/1153426136802529280/1190424145327038554) for building with GitHub actions (must be in the Discord)
