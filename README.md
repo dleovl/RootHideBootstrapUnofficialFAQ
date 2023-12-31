@@ -1,4 +1,4 @@
-**UNOFFICIAL** RootHide Bootstrap FAQ:
+# **UNOFFICIAL** RootHide Bootstrap FAQ
 
 DO NOT UPDATE YOUR PHONE NO MATTER WHAT!
 This bootstrap is currently unsupported on A15+ devices running iOS 17.0.
