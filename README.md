@@ -5,6 +5,7 @@ This bootstrap is currently unsupported on A15+ devices running iOS 17.0.
 SpringBoard tweaks *DO NOT WORK* currently. Tweak daemons do not work either.
 
 Always remember, **DO NOT INSTALL `.TIPA` BUILDS FROM OTHER PEOPLE.** You risk installing malicious code if the code used to build the tipa is open source (meaning anyone could've modified the tweak to be malicious) and you're potentially installing outdated Bootstrap versions which may not function properly nor will they recieve support.
+Don't run `rm -rf /var/`, it doesn't give you SpringBoard injection.
 
 [Join the RootHide Discord server](https://discord.com/invite/scqCkumAYp)!
 If you have an issue that isn't listed here, check the [issues](https://github.com/RootHide/Bootstrap/issues). If it's still not there, ask in our [Discord](https://discord.com/invite/scqCkumAYp). If you have something you'd like added here, let @dleovl in the server know, or make a PR in this repo.
