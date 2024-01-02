@@ -9,7 +9,7 @@ Don't run `rm -rf /var/`, it doesn't give you SpringBoard injection.
 
 [Join the RootHide Discord server](https://discord.com/invite/scqCkumAYp)!
 If you have an issue that isn't listed here, check the [issues](https://github.com/RootHide/Bootstrap/issues). If it's still not there, ask in our [Discord](https://discord.com/invite/scqCkumAYp). If you have something you'd like added here, let @dleovl in the server know, or make a PR in this repo.
-This FAQ README will be consistently updated along with the [Bootstrap README fork](https://github.com/dleovl/BootstrapREADME/blob/main/README.md).
+This FAQ README will be consistently updated along with the [Bootstrap README fork](https://github.com/dleovl/Bootstrap/blob/main/README.md).
 
 ## Do I need TrollStore for this bootstrap?
 YES! No TrollStore = Unsupported. No ifs, ands, or buts.
@@ -18,10 +18,10 @@ If you are on a supported version to install TrollStore, use [this guide](https:
 ## How do I build the RootHide Bootstrap? (MAC NOT REQUIRED)
 Check [here](https://discord.com/channels/1130859165942829106/1130859166488076331/1190488974528106607) or [here](https://discord.com/channels/1130859165942829106/1153426136802529280/1190424145327038554) for building with GitHub actions (must be in the Discord)
 
-Got a Mac and wanna use XCode? [Use this README](https://github.com/dleovl/BootstrapREADME/blob/main/README.md).
+Got a Mac and wanna use XCode? [Use this README](https://github.com/dleovl/Bootstrap/blob/main/README.md).
 
 ## Building doesn't work / I have a question about converting tweaks:
-[Check my fork of the README](https://github.com/dleovl/BootstrapREADME/blob/main/README.md)
+[Check my fork of the README](https://github.com/dleovl/Bootstrap/blob/main/README.md)
 
 ## Notifications are broken / apps keep asking for permissions!
 Check out [issue #2](https://github.com/RootHide/Bootstrap/issues/2), this issue is already known. Disable and enable tweak injection to temporarily fix issue until next reboot.
