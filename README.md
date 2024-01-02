@@ -63,3 +63,10 @@ Use TweakSettings by CreatureSurvive on https://creaturecoding.com/repo/ and res
 
 ## Why does detection not work 100%?
 If you installed Filza through TrollStore, replace it with the [no URL scheme version](https://tigisoftware.com/download/Filza_NoURLScheme_4.0.0.ipa). If it still doesn't work, you may need to clear app data with Apps Manager by TIGI Software or uninstall/reinstall the app.
+
+## How do I disable OTA updates (working on 17.0)
+Turn off automatic updates in Settings, both iOS updates (installing and downloading) and security responses & system files.
+
+Download the [Cowabunga IPA](https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa) and install with TrollStore.
+Open and go to Tools > Miscellaneous and turn Supervised *ON*. Open Settings app and change the phones date to December 1st 2023.
+Install the tvOS profile with [this mobileconfig](https://betaprofiles.dev/dl/block-ota/BlockOTA_17.mobileconfig) and reboot. Disable Supervision from Cowabunga and set the date back to normal.
