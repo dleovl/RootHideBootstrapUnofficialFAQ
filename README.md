@@ -15,7 +15,7 @@ YES! No TrollStore = Unsupported. No ifs, ands, or buts.
 If you are on a supported version to install TrollStore, use [this guide](https://ios.cfw.guide/installing-trollstore/) to install TrollStore.
 
 ## How do I build the RootHide Bootstrap? (Mac not required)
-Check [here](https://discord.com/channels/1130859165942829106/1130859166488076331/1190488974528106607) or [here](https://discord.com/channels/1130859165942829106/1153426136802529280/1190424145327038554) for building with GitHub actions (must be in the Discord). This doesn't automatically update to the latest commit when a new one comes out, so you'll need to sync forks every time a commit is made. **DO NOT** rely on other peoples `.tipa` files as they can be outdated or malicious. Completely automatic building has been achieved by me and will be merged into the official repository when the developer sees fit.
+Check [here](https://discord.com/channels/1130859165942829106/1130859166488076331/1190488974528106607) for building with GitHub actions (must be in the Discord). This doesn't automatically update to the latest commit when a new one comes out, so you'll need to sync forks every time a commit is made. **DO NOT** rely on other peoples `.tipa` files as they can be outdated or malicious. Completely automatic building has been achieved by me and will be merged into the official repository when the developer sees fit.
 
 Got a Mac and wanna use XCode? [Use this README](https://github.com/dleovl/Bootstrap/blob/main/README.md).
 
