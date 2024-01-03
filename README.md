@@ -60,8 +60,8 @@ Flex 3 (not flex/FLEXing), iCleaner (Pro)
 ## How do I change tweak settings?
 Use TweakSettings by CreatureSurvive on https://creaturecoding.com/repo/ and respring for it to show up, it's an app. If Settings works for you with tweak injection and you can see your tweaks in the app, you don't need TweakSettings. If TweakSettings works for you, you don't need Settings. To test settings, install PreferenceLoader and showtouch and enable com.apple.Preferences in Bootstrap AppEnabler. If you experience crashes with Settings after testing this, and you're sure no other tweak interferes with this, comment your device and iOS version [here](https://github.com/RootHide/Bootstrap/issues/37).
 
-## Why does detection not work 100%?
-If you installed Filza through TrollStore, replace it with the [no URL scheme version](https://tigisoftware.com/download/Filza_NoURLScheme_4.0.0.ipa). If it still doesn't work, you may need to clear app data with Apps Manager by TIGI Software or uninstall/reinstall the app.
+## Why does anti-detection not work 100%?
+If you installed Filza through TrollStore, replace it with the [no URL scheme version](https://tigisoftware.com/download/Filza_NoURLScheme_4.0.0.ipa). If it still doesn't work, you may need to clear app data with Apps Manager by TIGI Software or uninstall/reinstall the app. If it STILL doesn't work, comment the application you're using along with a link to it and how to reproduce the warning (do you need to login/do anything beforehand) in [RootHide issue #48](https://github.com/RootHide/Bootstrap/issues/48).
 
 ## How do I disable OTA updates (working on even 17.0)
 Turn off automatic updates in Settings, both iOS updates (installing and downloading) and security responses & system files.
