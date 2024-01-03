@@ -69,5 +69,8 @@ If you installed Filza through TrollStore, replace it with the [no URL scheme ve
 Turn off automatic updates in Settings, both iOS updates (installing and downloading) and security responses & system files.
 
 Download the [Cowabunga IPA](https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa) and install with TrollStore.
+
+## Can I use JIT?
+JIT by default works with applications specifically made to support JIT provided by TrollStore, but you can enable JIT for outdated applications by using the bootstrap if you don't want to inject with [TrollStoreJitEnabler](https://github.com/Rednick16/TrollStoreJitEnabler). Enabling injection into applications that require JIT with AppEnabler will allow JIT to be utilized.
 Open and go to Tools > Miscellaneous and turn Supervised *ON*. Open Settings app and change the phones date to December 1st 2023.
 Install the tvOS profile with [this .mobileconfig](https://betaprofiles.dev/dl/block-ota/BlockOTA_17.mobileconfig) and reboot. Disable Supervision from Cowabunga and set the date back to normal.
