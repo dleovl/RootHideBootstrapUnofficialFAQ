@@ -56,7 +56,7 @@ Currently disabled for detection purposes. Copy repo URLs manually.
 Make sure the package is rootless (not already a RootHide tweak). For rootful, use the first option in the Patcher instead.
 
 ## Known broken tweaks (you won't get support)
-Flex 3 (not flex/FLEXing), iCleaner (Pro), Orion (iOS 17.0+)
+Flex 3 (not flex/FLEXing), iCleaner (Pro)
 
 ## How do I change tweak settings?
 Use TweakSettings by CreatureSurvive on https://creaturecoding.com/repo/ and respring for it to show up, it's an app. If Settings works for you with tweak injection and you can see your tweaks in the app, you don't need TweakSettings. If TweakSettings works for you, you don't need Settings. To test settings, install PreferenceLoader and showtouch and enable com.apple.Preferences in Bootstrap AppEnabler. If you experience crashes with Settings after testing this, and you're sure no other tweak interferes with this, comment your device and iOS version [here](https://github.com/RootHide/Bootstrap/issues/37).
