@@ -1,7 +1,6 @@
 # **UNOFFICIAL** RootHide Bootstrap FAQ
 
 DO NOT UPDATE YOUR PHONE NO MATTER WHAT!
-This bootstrap is currently unsupported on A15+ devices running iOS 17.0.
 SpringBoard tweaks *DO NOT WORK* currently. Tweak daemons do not work either.
 
 Always remember, **DO NOT INSTALL `.TIPA` BUILDS FROM OTHER PEOPLE.** You risk installing malicious code if the code used to build the tipa is open source (meaning anyone could've modified the tweak to be malicious) and you're potentially installing outdated Bootstrap versions which may not function properly nor will they recieve support.
@@ -35,7 +34,7 @@ These apps will need to be dumped, decrypted, and have an unsandbox entitlement 
 ## How do I uninstall the Bootstrap?
 Disable EVERY app in AppEnabler in the Bootstrap app. Reboot. Open the Bootstrap app and press uninstall. Thanks for staying with us!
 
-## Why does the bootstrap say wait for fix? (non A15+ iOS 17 / test UI)
+## Why does the bootstrap say wait for fix? (test UI)
 You are using an outdated leaked build. Please refer to the pin for proper instructions on how to update your bootstrap.
 
 ## DELETE ZEBRA!
@@ -64,7 +63,7 @@ Use TweakSettings by CreatureSurvive on https://creaturecoding.com/repo/ and res
 ## Why does detection not work 100%?
 If you installed Filza through TrollStore, replace it with the [no URL scheme version](https://tigisoftware.com/download/Filza_NoURLScheme_4.0.0.ipa). If it still doesn't work, you may need to clear app data with Apps Manager by TIGI Software or uninstall/reinstall the app.
 
-## How do I disable OTA updates (working on 17.0)
+## How do I disable OTA updates (working on even 17.0)
 Turn off automatic updates in Settings, both iOS updates (installing and downloading) and security responses & system files.
 
 Download the [Cowabunga IPA](https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa) and install with TrollStore.
