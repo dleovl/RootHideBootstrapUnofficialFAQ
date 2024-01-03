@@ -46,7 +46,9 @@ Look for rootless tweak lists, and rule out the tweaks that require SpringBoard 
 Keyboard-related tweaks and SnowBoard UI extensions (and ONLY UI extensions, NOT homescreen theming) work when you enable the app you want tweaked in AppEnabler.
 
 ## How do I update the Bootstrap?
-Reboot, install the new `.tipa` through TrollStore, open Bootstrapp and bootstrap.
+Currently, for updating between beta versions, you may have to uninstall your bootstrap before updating. You can export sources and tweaks in Sileo, and backup your preferences through Filza to make this process easier. There is currently no known fix to this issue.
+
+Uninstall, install your new `.tipa`, reboot, and bootstrap.
 
 ## No Sileo URL scheme?
 Currently disabled for detection purposes. Copy repo URLs manually.
@@ -68,4 +70,4 @@ Turn off automatic updates in Settings, both iOS updates (installing and downloa
 
 Download the [Cowabunga IPA](https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa) and install with TrollStore.
 Open and go to Tools > Miscellaneous and turn Supervised *ON*. Open Settings app and change the phones date to December 1st 2023.
-Install the tvOS profile with [this mobileconfig](https://betaprofiles.dev/dl/block-ota/BlockOTA_17.mobileconfig) and reboot. Disable Supervision from Cowabunga and set the date back to normal.
+Install the tvOS profile with [this .mobileconfig](https://betaprofiles.dev/dl/block-ota/BlockOTA_17.mobileconfig) and reboot. Disable Supervision from Cowabunga and set the date back to normal.
