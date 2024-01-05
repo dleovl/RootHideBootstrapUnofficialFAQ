@@ -74,3 +74,8 @@ Install the tvOS profile with [this .mobileconfig](https://betaprofiles.dev/dl/b
 
 ## Can I use JIT?
 JIT by default works with applications specifically made to support JIT provided by TrollStore, but you can enable JIT for outdated applications by using the bootstrap if you don't want to inject with [TrollStoreJitEnabler](https://github.com/Rednick16/TrollStoreJitEnabler). Enabling injection into applications that require JIT with AppEnabler will allow JIT to be utilized.
+
+## Why don't my apps say 'Open' in the App Store?
+Applications injected in AppEnabler will not show up in the App Store. **DO NOT** click the cloud download button unless you know what you're doing or it's a 100% last resort.
+
+To get it to say 'Open' again, disable injection in AppEnabler, and refresh icon cache in TrollStore.
