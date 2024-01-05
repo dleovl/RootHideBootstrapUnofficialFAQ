@@ -7,7 +7,7 @@ Always remember, **DO NOT INSTALL `.TIPA` BUILDS FROM OTHER PEOPLE.** You risk i
 Don't run `rm -rf /var/`, it doesn't give you SpringBoard injection.
 
 [Join the RootHide Discord server](https://discord.com/invite/scqCkumAYp)!
-If you have an issue that isn't listed here, check the [issues](https://github.com/RootHide/Bootstrap/issues). If it's still not there, ask in our [Discord](https://discord.com/invite/scqCkumAYp). If you have something you'd like added here, let @dleovl in the server know, or make a PR in this repo.
+If you have an issue that isn't listed here, check the [issues](https://github.com/RootHide/Bootstrap/issues). If it's still not there, ask in the [Discord](https://discord.com/invite/scqCkumAYp). If you have something you'd like added here, let @dleovl in the server know, or make a PR in this repo.
 This FAQ README will be consistently updated along with the [Bootstrap README fork](https://github.com/dleovl/Bootstrap/blob/main/README.md).
 
 ## Do I need TrollStore for this bootstrap?
