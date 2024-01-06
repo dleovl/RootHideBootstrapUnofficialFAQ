@@ -1,7 +1,7 @@
 # **UNOFFICIAL** RootHide Bootstrap FAQ
 
 DO NOT UPDATE YOUR PHONE NO MATTER WHAT!
-SpringBoard tweaks *DO NOT WORK* currently. Tweak daemons do not work either.
+SpringBoard tweaks *DO NOT WORK* currently. Tweak daemons do not work either. Refer to the rest of this FAQ for more information.
 
 Always remember, **DO NOT INSTALL `.TIPA` BUILDS FROM OTHER PEOPLE.** You risk installing malicious code if the code used to build the tipa is open source (meaning anyone could've modified the tweak to be malicious) and you're potentially installing outdated Bootstrap versions which may not function properly nor will they recieve support.
 Don't run `rm -rf /var/`, it doesn't give you SpringBoard injection.
@@ -20,52 +20,72 @@ Check [here](https://discord.com/channels/1130859165942829106/113085916648807633
 Got a Mac and wanna use XCode? [Use this README](https://github.com/dleovl/Bootstrap/blob/main/README.md).
 
 ## Building doesn't work / I have a question about converting tweaks:
-[Check my fork of the README](https://github.com/dleovl/Bootstrap/blob/main/README.md)
+[Check my fork of the README](https://github.com/dleovl/Bootstrap/blob/main/README.md).
 
 ## Notifications are broken / apps keep asking for permissions!
 Check out [issue #2](https://github.com/RootHide/Bootstrap/issues/2), this issue is already known. Disable and enable tweak injection to temporarily fix issue until next reboot.
 
 ## Cask 3 doesn't save settings!
-Install [this fixed .deb](https://cdn.discordapp.com/attachments/1153426136802529280/1190903773606973470/com.ryannair05.cask3_1.0.2_iphoneos-arm64e.deb) with Sileo (pre-converted) (you may need to be in the Discord server for it to load)
+Install [this fixed .deb](https://cdn.discordapp.com/attachments/1153426136802529280/1190903773606973470/com.ryannair05.cask3_1.0.2_iphoneos-arm64e.deb) with Sileo (pre-converted) (you may need to be in the [RootHide Discord server](https://discord.com/invite/scqCkumAYp) for it to load)
 
-## Cask doesn't work in Discord / other apps
-These apps will need to be dumped, decrypted, and have an unsandbox entitlement like `get-task-allow` to allow the tweaks like Cask 3 to work. If this is too technical, ask in the Discord.
+## Cask 3 doesn't work in Discord / other apps
+These apps will need to be decrypted and have an unsandbox entitlement like `get-task-allow` to allow the tweaks like Cask 3 to work. If this is too technical, ask in the [RootHide Discord](https://discord.com/invite/scqCkumAYp).
 
 ## How do I uninstall the Bootstrap?
-Disable EVERY app in AppEnabler in the Bootstrap app. Reboot. Open the Bootstrap app and press uninstall. Thanks for staying with us!
+If you're uninstalling because of any bugs, let us know in the [GitHub issues](https://github.com/RootHide/Bootstrap/issues).
+1. Disable EVERYTHING in AppEnabler.
+2. `(Optional)` If you're forever leaving the Bootstrap, open the RootHide application (`com.roothide.manager` in Sileo if it isn't installed, must be bootstrapped), click varClean from the bottom tabs, press 'Select All', and press 'Clean'. This will remove ALL jailbreak related files from `/var`. **You may experience issues with jailbreak detection in the future if you do not remove these files. Unfortunately, this may also remove files utilized by other TrollStore applications. Ensure not to remove these if you want to continue using them where they were left off.**
+4. Reboot your phone
+5. Open Bootstrap and press uninstall
+Thanks for staying with us.
 
 ## Why does the bootstrap say wait for fix? (test UI)
-You are using an outdated leaked build. Please refer to the pin for proper instructions on how to update your bootstrap.
+You are using an outdated leaked build. Please refer to this FAQ for proper instructions on how to update your bootstrap.
 
 ## DELETE ZEBRA!
 It doesn't work well with rootless, please stick to Sileo. You can use whatever package manager you want, but if you have issues with installing packages in Zebra, it's because you're using Zebra. Switch to Sileo.
 
-## What tweaks are supported?
-Look for rootless tweak lists, and rule out the tweaks that require SpringBoard injection or daemons. These should work 99% of the time. Don't bother asking for Bootstrap-compatible tweak lists as you can easily tell which tweaks are supported or not, especially with the upcoming addition of SpringBoard injection., don't leave clutter everywher!
-
-Keyboard-related tweaks and SnowBoard UI extensions (and ONLY UI extensions, NOT homescreen theming) work when you enable the app you want tweaked in AppEnabler.
-
 ## How do I update the Bootstrap?
-Currently, for updating between beta versions, you may have to uninstall your bootstrap before updating. You can export sources and tweaks in Sileo, and backup your preferences through Filza to make this process easier. There is currently no known fix to this issue.
+For updating between beta versions, you may have to uninstall your bootstrap before updating.
 
-Uninstall, install your new `.tipa`, reboot, and bootstrap.
+You can export sources and tweaks in Sileo, preferences will be saved through uninstallation. (@exact)
 
-## No Sileo URL scheme?
-Currently disabled for detection purposes. Copy repo URLs manually.
+Uninstall the bootstrap in the app, install your new `.tipa`, reboot, and bootstrap.
+
+## Why don't my package managers have any URL schemes?
+URL schemes are currently **disabled** to mitigate jailbreak detection. You will need to manually copy repository URLs and paste them into the package managers yourself.
 
 ## 'Not a rootless package' in RootHide Patcher
-Make sure the package is rootless (not already a RootHide tweak). For rootful, use the first option in the Patcher instead.
+By default, 'Using Rootless Compat Layer' is selected in the RootHide Patcher. To convert rootless tweaks, you can use this option (though you will need to install rootless-compat as a dependancy). Rootful tweaks can use 'Directly Convert Simple Tweaks' instead.
 
-## Known broken tweaks (you won't get support)
-iCleaner (Pro), as this software has a lot to do with daemons.
+## '**tweakname** tweak doesn't work, why?'
+Some tweaks are currently not supported. This can either be due to lack of SpringBoard or daemon support, or a poorly written tweak that has manual paths.
+These are some examples of incompatible tweaks:
+- iCleaner (Pro): Support for daemons is required.
+- Crane (Lite): Support for daemons is required, though you can manage through Preferences if you are **100%** sure you know what you're doing. Follow [this guide](https://github.com/RootHide/Bootstrap/issues/11#issuecomment-1873340249) for instructions on how to use it within Preferences.
+- Aemulo: Support for daemons is required.
+- SnowBoard: Support for SpringBoard is required, though you can use SnowBoard UI extensions in applications.
+- Flex 3 Beta: This application breaks `com.apple.Preferences` when injected if you have it alongside PreferenceLoader. Use the [updated version](https://twitter.com/Dxcool223x/status/1741169030340243520).
+- iGameGod: Installing this tweak as an application (through Sileo) doesn't work because iGameGod only supports injection into 'User' applications. Use tweaks from [iOSGods](https://iosgods.com/) instead.
+
+Any tweaks that modify or depend on the homescreen, lockscreen, control center, statusbar, or [anything else SpringBoard related](https://iphonedev.wiki/SpringBoard) will not function.
 
 ## How do I change tweak settings?
-Use TweakSettings by CreatureSurvive on https://creaturecoding.com/repo/ and respring for it to show up, it's an app. If Settings works for you with tweak injection and you can see your tweaks in the app, you don't need TweakSettings. If TweakSettings works for you, you don't need Settings. To test settings, install PreferenceLoader and showtouch and enable com.apple.Preferences in Bootstrap AppEnabler. If you experience crashes with Settings after testing this, and you're sure no other tweak interferes with this, comment your device and iOS version [here](https://github.com/RootHide/Bootstrap/issues/37).
+You have two solutions:
 
-## Why does anti-detection not work 100%?
-If you installed Filza through TrollStore, replace it with the [no URL scheme version](https://tigisoftware.com/download/Filza_NoURLScheme_4.0.0.ipa). If it still doesn't work, you may need to clear app data with Apps Manager by TIGI Software or uninstall/reinstall the app. If it STILL doesn't work, comment the application you're using along with a link to it and how to reproduce the warning (do you need to login/do anything beforehand) in [RootHide issue #48](https://github.com/RootHide/Bootstrap/issues/48).
+1. Enable injection into com.apple.Preferences (please be wary that you are injecting into a system application, do this at your own risk) and install PreferenceLoader along with a tweak that has a preference bundle.
+2. Use TweakSettings by CreatureSurvive on the [CreatureSurvive repository](https://creaturecoding.com/repo/) and respring for it to show up. **This is the safest alternative to people who DO NOT want to inject into system applications.**
 
-## How do I disable OTA updates (working on even 17.0)
+## Why do applications claim I'm still jailbroken?
+Coming from a previous jailbreak, refer to #2 in the uninstallation guide in this FAQ to remove all jailbreak related files in `/var`.
+
+**Do not install Filza from RootHide's repository in Sileo.** If you installed Filza through TrollStore, replace it with the [no URL scheme version](https://tigisoftware.com/download/Filza_NoURLScheme_4.0.0.ipa).
+
+If your application still persists, attempt to uninstall it completely (disable injection first) and reinstall from the App Store.
+
+You can report bad applications in [issue #48](https://github.com/RootHide/Bootstrap/issues/48), please comment the link to the App Store landing page and how to reproduce the jailbreak detection warning (do you need to login?)
+
+## How do I disable OTA updates?
 Turn off automatic updates in Settings, both iOS updates (installing and downloading) and security responses & system files.
 
 Download the [Cowabunga IPA](https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa) and install with TrollStore.
@@ -76,6 +96,5 @@ Install the tvOS profile with [this .mobileconfig](https://betaprofiles.dev/dl/b
 JIT by default works with applications specifically made to support JIT provided by TrollStore, but you can enable JIT for outdated applications by using the bootstrap if you don't want to inject with [TrollStoreJitEnabler](https://github.com/Rednick16/TrollStoreJitEnabler). Enabling injection into applications that require JIT with AppEnabler will allow JIT to be utilized.
 
 ## Why don't my apps say 'Open' in the App Store?
-Applications injected in AppEnabler will not show up in the App Store. **DO NOT** click the cloud download button unless you know what you're doing or it's a 100% last resort.
-
+Applications injected in AppEnabler will not show up in the App Store. **DO NOT** click the cloud download button unless you **100%** know what you're doing.
 To get it to say 'Open' again, disable injection in AppEnabler, and refresh icon cache in TrollStore.
