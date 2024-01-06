@@ -48,7 +48,7 @@ It doesn't work well with rootless, please stick to Sileo. You can use whatever 
 ## How do I update the Bootstrap?
 For updating between beta versions, you may have to uninstall your bootstrap before updating.
 
-You can export sources and tweaks in Sileo, preferences will be saved through uninstallation. (@exact)
+You can export sources and tweaks in Sileo, preferences will be saved through uninstallation. Thanks @exact
 
 Uninstall the bootstrap in the app, install your new `.tipa`, reboot, and bootstrap.
 
