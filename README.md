@@ -1,6 +1,6 @@
 # **UNOFFICIAL** RootHide Bootstrap FAQ
 
-Edited 01/06/2024 01:08PM (UTC-5)
+If you want something added here, make an issue or a pull request.
 
 DO NOT UPDATE YOUR PHONE NO MATTER WHAT!
 SpringBoard tweaks *DO NOT WORK* currently. Tweak daemons do not work either. Refer to the rest of this FAQ for more information.
