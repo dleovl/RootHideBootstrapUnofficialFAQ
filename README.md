@@ -3,7 +3,7 @@
 If you want something added here, make an issue or a pull request.
 
 DO NOT UPDATE YOUR PHONE NO MATTER WHAT!
-SpringBoard tweaks *DO NOT WORK* currently by *ANY* official means. Tweak daemons do not work either. Refer to the rest of this FAQ for more information.
+SpringBoard tweaks *DO NOT WORK* currently by any *OFFICIAL* means. Tweak daemons do not work either. Refer to the rest of this FAQ for more information.
 
 Always remember, **DO NOT INSTALL `.TIPA` BUILDS FROM OTHER PEOPLE.** You risk installing malicious code since the code used to build the official `.tipa` is open source (meaning anyone could've modified the code to be malicious) and you're potentially installing outdated Bootstrap versions which may not function properly nor will they recieve support.
 Don't run `rm -rf /var/`, it doesn't give you SpringBoard injection.
