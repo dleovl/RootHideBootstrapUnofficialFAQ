@@ -35,6 +35,8 @@ These apps will need to be decrypted and have an unsandbox entitlement like `get
 
 ## How do I uninstall the Bootstrap?
 If you're uninstalling because of any bugs, let us know in the [GitHub issues](https://github.com/RootHide/Bootstrap/issues).
+
+You may want to backup your sources and tweaks. You can do this in Sileo by clicking the share button in the top-left corner of both the Sources and Installed tabs. You can copy and paste this list into your Notes app for safe-keeping.
 1. Disable EVERYTHING in AppEnabler.
 2. `(Optional, *please read in its entirety*)` If you're forever leaving the Bootstrap, open the RootHide application (`com.roothide.manager` in Sileo if it isn't installed, must be bootstrapped), click varClean from the bottom tabs, press 'Select All', and press 'Clean'. This will remove ALL jailbreak related files from `/var`. **You may experience issues with jailbreak detection in the future if you do not remove these files. Unfortunately, this may also remove files utilized by other TrollStore applications. Ensure not to remove these if you want to continue using them where they were left off.**
 4. Reboot your phone.
