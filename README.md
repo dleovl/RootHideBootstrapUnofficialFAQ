@@ -52,6 +52,9 @@ Thank you for staying with us.
 
 # Tweaks
 
+## How do I get SpringBoard tweaks to work?
+There are tools you can use on top of RootHide Bootstrap for SpringBoard tweaks. You can find more information on the [RootHide Discord server](https://discord.com/invite/scqCkumAYp), in the `#faq` channel.
+
 ## How do I convert tweaks?
 [Check my fork of the README](https://github.com/dleovl/Bootstrap/blob/main/README.md).
 
