@@ -10,7 +10,7 @@ Don't run `rm -rf /var/`, it doesn't give you SpringBoard injection.
 
 [Join the RootHide Discord server](https://discord.com/invite/scqCkumAYp)!
 If you have an issue that isn't listed here, check the [issues](https://github.com/RootHide/Bootstrap/issues). If it's still not there, ask in the [RootHide Discord server](https://discord.com/invite/scqCkumAYp).
-This FAQ `README.md` will be consistently updated along with the [Bootstrap README fork](https://github.com/dleovl/Bootstrap/blob/main/README.md).
+This FAQ `README.md` will be consistently updated along with the [Bootstrap README fork](https://github.com/dleovl/Bootstrap/blob/readme/README.md).
 
 # Bootstrap
 
