@@ -21,7 +21,7 @@ If you are on a supported version to install TrollStore, use [this guide](https:
 ## How do I build the RootHide Bootstrap? (No PC/Mac required)
 Check [here](https://discord.com/channels/1130859165942829106/1130859166488076331/1190488974528106607) for building with GitHub actions (must be in the [RootHide Discord server](https://discord.com/invite/scqCkumAYp), this is also good for getting really crucial information). This `.yml` doesn't automatically update to the latest commit when a new one comes out, so you'll need to sync your fork every time a commit is made (it'll automatically build within 5 minutes). **DO NOT** rely on other peoples `.tipa` files as they can be outdated or malicious. Automatic building repositories are **not** a requirement and only bloat up wherever you send them.
 
-Got a Mac and wanna use XCode? [Use this README](https://github.com/dleovl/Bootstrap/blob/main/README.md).
+Got a Mac and wanna use Xcode? [Use this README](https://github.com/dleovl/Bootstrap/blob/main/README.md).
 
 ## Why does the bootstrap say wait for fix? (test UI)
 You are using an outdated leaked build. Please refer to this FAQ for proper instructions on how to update your bootstrap.
