@@ -3,14 +3,14 @@
 If you want something added/revised here, make an issue or a pull request.
 
 DO NOT UPDATE YOUR PHONE NO MATTER WHAT!
-SpringBoard tweaks *DO NOT WORK* currently by any *OFFICIAL* means. Tweak daemons do not work either. Refer to the rest of this FAQ for more information.
+SpringBoard tweaks *DO NOT WORK* currently by any *OFFICIAL* means. This also includes tweaks that rely on daemons. Refer to the [RootHide Discord server](https://discord.com/invite/scqCkumAYp) for more information regarding the matter (and what you can do to make SpringBoard supported).
 
 Always remember, **DO NOT INSTALL `.TIPA` BUILDS FROM OTHER PEOPLE.** You risk installing malicious code since the code used to build the official `.tipa` is open source (meaning anyone could've modified the code to be malicious) and you're potentially installing outdated Bootstrap versions which may not function properly nor will they recieve support.
 Don't run `rm -rf /var/`, it doesn't give you SpringBoard injection.
 
 [Join the RootHide Discord server](https://discord.com/invite/scqCkumAYp)!
-If you have an issue that isn't listed here, check the [issues](https://github.com/RootHide/Bootstrap/issues). If it's still not there, ask in the [Discord](https://discord.com/invite/scqCkumAYp).
-This FAQ README will be consistently updated along with the [Bootstrap README fork](https://github.com/dleovl/Bootstrap/blob/main/README.md).
+If you have an issue that isn't listed here, check the [issues](https://github.com/RootHide/Bootstrap/issues). If it's still not there, ask in the [RootHide Discord server](https://discord.com/invite/scqCkumAYp).
+This FAQ `README.md` will be consistently updated along with the [Bootstrap README fork](https://github.com/dleovl/Bootstrap/blob/main/README.md).
 
 # Bootstrap
 
